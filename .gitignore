@@ -1,0 +1,32 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Local virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Large raw PDF papers (keep repository lightweight)
+papers/
+*.pdf
+!report/*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Scratch and temporary scripts
+scratch/
+*.log
+_rmse_cache.npy
